@@ -1,7 +1,7 @@
 class Styl < Formula
   desc "Linter, validator, and formatter for MapLibre GL / Mapbox GL style JSON"
   homepage "https://github.com/navidnabavi/styl"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
