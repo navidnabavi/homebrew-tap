@@ -1,28 +1,28 @@
 class Styl < Formula
   desc "Linter, validator, and formatter for MapLibre GL / Mapbox GL style JSON"
   homepage "https://github.com/navidnabavi/styl"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/navidnabavi/styl/releases/download/v#{version}/styl-v#{version}-aarch64-apple-darwin"
-      sha256 "edec4e15dd7c8cdbecf6cd964e38bca20842b9048b84a76b6536faab4a590687"
+      sha256 "637e8a64d195b3700f3e4fb4cbe65bce63d8330a2c543c4d1517f0a4a144e9fb"
     end
     on_intel do
       url "https://github.com/navidnabavi/styl/releases/download/v#{version}/styl-v#{version}-x86_64-apple-darwin"
-      sha256 "25fbc0a59daedbeb6fe410368edbb41ffed7557398cea45b677ede004a36a747"
+      sha256 "ddd08fb6942c31347257dac00bc4111b60d0b5ee66826ff562d978ca6477f882"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/navidnabavi/styl/releases/download/v#{version}/styl-v#{version}-aarch64-unknown-linux-gnu"
-      sha256 "8e00ee84dc192b40da3fa95ae72fb6befaee4e80e15945c42748a6a84cc4889f"
+      sha256 "6221502e38d172a112bcd2b5846c235c13a70314733468481d55f71be564b027"
     end
     on_intel do
       url "https://github.com/navidnabavi/styl/releases/download/v#{version}/styl-v#{version}-x86_64-unknown-linux-gnu"
-      sha256 "eb06dabc2e0814abd67a1199d4d80b5a9c37d049f01c45e1438334fb7b08fd23"
+      sha256 "eb3c994a2746d2107e9813812f17ef0ee841cff247ada8ad1b47bce53a30acd7"
     end
   end
 
